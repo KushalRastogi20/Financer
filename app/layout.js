@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header.jsx";
 import { ClerkProvider } from "@clerk/nextjs";
-const inter = Inter({substs:["latin"]})
+const inter = Inter({subsets:["latin"]})
 export const metadata = {
   title: "Financer",
   description: "An Ai powered finance tracker",
